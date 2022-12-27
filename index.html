@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1><u>PARKVIEW HIGH SCHOOL</u></h1>
+    <h1>FORM 1 APPLICATION FORM</h1>
+    <fieldset>
+      <section>
+        <h1>Student's details</h1>
+        <label for="name"
+          >Name:
+          <input type="text" class="maininput padding-5" placeholder="Jane"
+        /></label>
+        <label for="surname"
+          >Surname:
+          <input type="text" class="maininput padding-5" placeholder="Doe"
+        /></label>
+        <label for="dob"
+          >Date of Birth: <br />
+          <input
+            type="number"
+            min="1"
+            max="31"
+            placeholder="date"
+            class="inputwidth padding-5" /><input
+            type="number"
+            min="1"
+            max="12"
+            placeholder="month"
+            class="inputwidth padding-5" /><input
+            type="number"
+            placeholder="year"
+            class="inputwidth padding-5"
+        /></label>
+        <label for="gender"
+          >Gender: <br /><input
+            type="radio"
+            class="inputwidth-40"
+            name="gender"
+          />boy
+          <input type="radio" class="inputwidth" name="gender" />girl</label
+        ><label for="school"
+          >School:
+          <input
+            type="text"
+            class="maininput padding-5"
+            placeholder="Watershed primary school"
+        /></label>
+        <label for="subjects">
+          Subjects written: <br />
+          <ul class="no-bullets">
+            <li><input type="checkbox" /> Mathematics</li>
+            <li><input type="checkbox" /> English</li>
+            <li><input type="checkbox" /> Heritage</li>
+            <li><input type="checkbox" /> Science</li>
+            <li><input type="checkbox" /> Physical Education</li>
+            <li><input type="checkbox" /> Agriculture</li>
+            <li><input type="checkbox" /> Social science</li>
+          </ul>
+        </label>
+        <label for="results">
+          Grade 7 Results: <br />
+          <input
+            type="number"
+            min="7"
+            class="maininput padding-5"
+            placeholder="units"
+        /></label>
+        <label for="address"
+          >Address:
+          <textarea
+            type="text"
+            class="maininput padding-5"
+            rows="3"
+            cols="50"
+            placeholder="28 Paris Avenue Whitecliff"
+          ></textarea>
+        </label>
+        <label for="address"
+          >Contact details:
+          <input
+            type="text"
+            class="maininput padding-5"
+            placeholder="+263 77 113 6936"
+          />
+          <input
+            type="text"
+            class="maininput padding-5"
+            placeholder="janedoe@gmail.com"
+          />
+        </label>
+      </section>
+      <section>
+        <h1>For office use only</h1>
+        <textarea
+          type="text"
+          class="maininput padding-5"
+          rows="3"
+          cols="50"
+        ></textarea>
+      </section>
+    </fieldset>
+  </body>
+</html>
